@@ -1,0 +1,18 @@
+// to make sure that we use typescript in this file and not in tha all machine
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ES5"
+  },
+  "include": [
+    //tous les fichiers dans src
+    "./src/**/*"
+  ]
+}

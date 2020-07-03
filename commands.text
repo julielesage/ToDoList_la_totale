@@ -1,0 +1,21 @@
+npm i react react-dom
+
+// -D = as a dependency
+
+npm i webpack webpack-dev-server -D
+npm i typescript awesome-typescript-loader
+npm i @types/react @types/react-dom -D
+
+// when npm start : The CLI moved into a separate package: webpack-cli
+// Please install 'webpack-cli' in addition to webpack itself to use the CLI
+
+npm i -D webpack-cli
+npm i html-webpack-plugin -D
+npm i source-map-loader -D
+
+npm i extract-text-webpack-plugin css-loader sass-loader node-sass -D
+
+// extract-text-webpack-plugin@3.0.2: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+
+npm install --save-dev mini-css-extract-plugin
+
